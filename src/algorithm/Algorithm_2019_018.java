@@ -38,6 +38,8 @@ public class Algorithm_2019_018 {
 
             switch (c1) {
                 case 1:
+                    BubbleSort b = new BubbleSort();
+                    b.bubbleSort();
                     break;
                 case 2:
                     break;
