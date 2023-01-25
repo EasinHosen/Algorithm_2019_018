@@ -19,11 +19,11 @@ public class Algorithm_2019_018 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner s = new Scanner(System.in);
-        System.out.println("=========== (Algorithm) ==========");
+        System.out.println("============= (Algorithm) =============");
         System.out.println(" 1) Data Structure \n 2) Algorithms");
         System.out.print("Enter your choice:> ");
         int choice = s.nextInt();
-        System.out.println("===================================");
+        System.out.println("=======================================");
 
         if (choice == 1) {
             System.out.println("=========== (Data Structure) ==========");
@@ -32,7 +32,7 @@ public class Algorithm_2019_018 {
                     + "07.Radix sort \n 08.Heap sort \n 09.Bin sort \n "
                     + "10.Shell sort \n 11.Linear search \n 12.Bimary search \n "
                     + "13.Euclidean GCD Algorithm \n 14.Universal hashing \n 15.Stack \n "
-                    + "16.Queue \n 17.Linked List \n 18.Fibonacci Numbers \n 19.Recurrence");
+                    + "16.Queue \n 17.Linked List \n 18.Fibonacci Numbers \n 19.Recurrence ");
             System.out.print("Enter your choice:> ");
             int c1 = s.nextInt();
 
@@ -42,6 +42,8 @@ public class Algorithm_2019_018 {
                     b.bubbleSort();
                     break;
                 case 2:
+                    InsertionSort is = new InsertionSort();
+                    is.insertionSort();
                     break;
                 case 3:
                     break;

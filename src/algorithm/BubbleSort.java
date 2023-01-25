@@ -5,24 +5,25 @@
  */
 package algorithm;
 
-import java.util.Scanner;
-
 /**
  *
  * @author easin
  */
 public class BubbleSort {
 
-    Scanner s = new Scanner(System.in);
-
     public void bubbleSort() {
 
         Input in = new Input();
+        Output out = new Output();
+
+        System.out.println("\n---Bubble sort selected---");
+
         int list[] = in.listInput();
+//        int list[] = {12, 11, 13, 5, 6};
 
         int n = list.length;
         for (int i = 0; i < n; i++) {
-            System.out.println("\nPass " + i + ":");
+            System.out.println("\nPass " + (i+1) + ":");
             for (int j = 0; j < n - i - 1; j++) {
                 if (list[j] > list[j + 1]) {
                     int temp = list[j];
@@ -38,8 +39,10 @@ public class BubbleSort {
         }
 
         System.out.print("Sorted output: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(list[i] + " ");
-        }
+        out.sortedListOutput(list);
+
+//        for (int i = 0; i < n; i++) {
+//            System.out.print(list[i] + " ");
+//        }
     }
 }
