@@ -30,7 +30,7 @@ public class Algorithm_2019_018 {
             System.out.println(" 01.Bubble sort \n 02.Insertion sort \n 03.Selection sort \n "
                     + "04.Marge sort \n 05.Quick sort \n 06.Counting sort \n "
                     + "07.Radix sort \n 08.Heap sort \n 09.Bin sort \n "
-                    + "10.Shell sort \n 11.Linear search \n 12.Bimary search \n "
+                    + "10.Shell sort \n 11.Linear search \n 12.Binary search \n "
                     + "13.Euclidean GCD Algorithm \n 14.Universal hashing \n 15.Stack \n "
                     + "16.Queue \n 17.Linked List \n 18.Fibonacci Numbers \n 19.Recurrence ");
             System.out.print("Enter your choice:> ");
@@ -64,6 +64,8 @@ public class Algorithm_2019_018 {
                 case 11:
                     break;
                 case 12:
+                    BinSearch bs = new BinSearch();
+                    bs.binarySearch();
                     break;
                 case 13:
                     break;
@@ -85,13 +87,14 @@ public class Algorithm_2019_018 {
             }
         } else if (choice == 2) {
             System.out.println("=========== (Algorithm) ==========");
-            System.out.println(" 01.Largest common subsequence \n 02.Optimal Binary Search Tree \n 03.Matrix chain multiplication \n "
-                    + "04.Strassens's matrix multiplication \n 05.BFS \n 06.DFS \n "
-                    + "07.DAG \n 08.Longest increasing subsequence \n 09.Topological sort \n "
-                    + "10.Krushkal's algorithm \n 11.Prim's algorithm \n 12.Dijkastra's algorithm \n "
-                    + "13.Bellman ford's algorithm \n 14.Warshall's algorithm \n 15.(0,1) KKnapsack problem \n "
-                    + "16.Naive string matching algorithm \n 17.Rabin krap string matching algorithm \n 18.Activity selection problem \n "
-                    + "19.Recurrence \n 20.Max flow min cut");
+            System.out.println(
+                    " 01.Largest common subsequence \n 02.Optimal Binary Search Tree \n 03.Matrix chain multiplication \n "
+                            + "04.Strassens's matrix multiplication \n 05.BFS \n 06.DFS \n "
+                            + "07.DAG \n 08.Longest increasing subsequence \n 09.Topological sort \n "
+                            + "10.Krushkal's algorithm \n 11.Prim's algorithm \n 12.Dijkastra's algorithm \n "
+                            + "13.Bellman ford's algorithm \n 14.Warshall's algorithm \n 15.(0,1) KKnapsack problem \n "
+                            + "16.Naive string matching algorithm \n 17.Rabin krap string matching algorithm \n 18.Activity selection problem \n "
+                            + "19.Recurrence \n 20.Max flow min cut");
             System.out.print("Enter your choice:> ");
             int c1 = s.nextInt();
 
