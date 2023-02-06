@@ -62,6 +62,8 @@ public class Algorithm_2019_018 {
                 case 10:
                     break;
                 case 11:
+                    LinSearch ls = new LinSearch();
+                    ls.linearSearch();
                     break;
                 case 12:
                     BinSearch bs = new BinSearch();
