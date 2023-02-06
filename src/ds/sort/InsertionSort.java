@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package algorithm;
+package ds.sort;
+
+import io.Input;
+import io.Output;
 
 /**
  *
@@ -19,22 +22,22 @@ public class InsertionSort {
         System.out.println("\n---Insertion sort selected---");
 
         int list[] = in.listInput();
-//        int list[] = {12, 11, 13, 5, 6};
+        // int list[] = {12, 11, 13, 5, 6};
 
         int n = list.length;
         for (int i = 1; i < n; i++) {
             int key = list[i];
             int j = i - 1;
-//            System.out.println("\nPass " + i + ":");
+            // System.out.println("\nPass " + i + ":");
 
             while (j >= 0 && list[j] > key) {
                 list[j + 1] = list[j];
                 j = j - 1;
-//                for (int k = 0; k < n; k++) {
-//                    System.out.print(list[k] + " ");
-//                }
-//                System.out.println("key=> ("+ key +") will take place at pos: "+j);
-//                System.out.println("");
+                // for (int k = 0; k < n; k++) {
+                // System.out.print(list[k] + " ");
+                // }
+                // System.out.println("key=> ("+ key +") will take place at pos: "+j);
+                // System.out.println("");
             }
             list[j + 1] = key;
 

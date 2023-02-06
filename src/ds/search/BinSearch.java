@@ -1,8 +1,13 @@
-package algorithm;
+package ds.search;
+
+import io.Input;
+import io.Output;
 
 public class BinSearch {
     public void binarySearch() {
         Input in = new Input();
+        Output out = new Output();
+
         System.out.println("\n---Binary Search selected---");
         System.out.println("\n\tInput must be sorted ASC!\n");
 
@@ -26,9 +31,9 @@ public class BinSearch {
                 l = m + 1;
         }
         if (found)
-            System.out.println("Key(" + key + ")found at index: " + m);
+            out.searchResultFoundOutput(key, m);
         else
-            System.out.println("Key not found.");
+            out.searchResultNotFoundOutput();
 
     }
 }

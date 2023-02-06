@@ -7,6 +7,11 @@ package algorithm;
 
 import java.util.Scanner;
 
+import ds.search.BinSearch;
+import ds.search.LinSearch;
+import ds.sort.BubbleSort;
+import ds.sort.InsertionSort;
+
 /**
  *
  * @author easin

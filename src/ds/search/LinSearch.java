@@ -1,8 +1,13 @@
-package algorithm;
+package ds.search;
+
+import io.Input;
+import io.Output;
 
 public class LinSearch {
     public void linearSearch() {
         Input in = new Input();
+        Output out = new Output();
+
         System.out.println("\n---Linear Search selected---");
 
         int list[] = in.listInput();
@@ -17,9 +22,9 @@ public class LinSearch {
             }
         }
         if (found)
-            System.out.println("Key(" + key + ")found at index: " + i);
+            out.searchResultFoundOutput(key, i);
         else
-            System.out.println("Key not found.");
+            out.searchResultNotFoundOutput();
 
     }
 }
