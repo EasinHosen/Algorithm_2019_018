@@ -10,6 +10,7 @@ import ds.search.BinSearch;
 import ds.search.LinSearch;
 import ds.sort.BubbleSort;
 import ds.sort.InsertionSort;
+import ds.sort.SelectionSort;
 
 /**
  *
@@ -21,7 +22,6 @@ public class Algorithm_2019_018 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner s = new Scanner(System.in);
         System.out.println("============= (Algorithm) =============");
         System.out.println(" 1) Data Structure \n 2) Algorithms");
@@ -37,6 +37,7 @@ public class Algorithm_2019_018 {
                     + "10.Shell sort \n 11.Linear search \n 12.Binary search \n "
                     + "13.Euclidean GCD Algorithm \n 14.Universal hashing \n 15.Stack \n "
                     + "16.Queue \n 17.Linked List \n 18.Fibonacci Numbers \n 19.Recurrence ");
+            System.out.println("===================X===================");
             System.out.print("Enter your choice:> ");
             int c1 = s.nextInt();
 
@@ -50,6 +51,8 @@ public class Algorithm_2019_018 {
                     is.insertionSort();
                     break;
                 case 3:
+                    SelectionSort ss = new SelectionSort();
+                    ss.selectionSort();
                     break;
                 case 4:
                     break;
@@ -101,6 +104,7 @@ public class Algorithm_2019_018 {
                             + "13.Bellman ford's algorithm \n 14.Warshall's algorithm \n 15.(0,1) KKnapsack problem \n "
                             + "16.Naive string matching algorithm \n 17.Rabin krap string matching algorithm \n 18.Activity selection problem \n "
                             + "19.Recurrence \n 20.Max flow min cut");
+            System.out.println("===================X===================");
             System.out.print("Enter your choice:> ");
             int c1 = s.nextInt();
 
