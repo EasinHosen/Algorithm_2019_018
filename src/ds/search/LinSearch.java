@@ -24,7 +24,7 @@ public class LinSearch {
         if (found)
             out.searchResultFoundOutput(key, i);
         else
-            out.searchResultNotFoundOutput();
+            out.searchResultNotFoundOutput(key);
 
     }
 }

@@ -25,7 +25,7 @@ public class Input {
     }
 
     public int keyInput() {
-        System.out.println("Enter key value:> ");
+        System.out.print("Enter key value:> ");
         return s.nextInt();
 
     }

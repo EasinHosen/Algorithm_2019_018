@@ -33,7 +33,7 @@ public class BinSearch {
         if (found)
             out.searchResultFoundOutput(key, m);
         else
-            out.searchResultNotFoundOutput();
+            out.searchResultNotFoundOutput(key);
 
     }
 }

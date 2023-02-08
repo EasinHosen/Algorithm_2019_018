@@ -20,7 +20,7 @@ public class Output {
         System.out.println("Key(" + key + ") found at index: " + index);
     }
 
-    public void searchResultNotFoundOutput() {
-        System.out.println("Key not found.");
+    public void searchResultNotFoundOutput(int key) {
+        System.out.println("Key(" + key+ ") not found.");
     }
 }
