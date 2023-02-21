@@ -5,8 +5,7 @@
  */
 package ds.sort;
 
-import io.Input;
-import io.Output;
+import io.*;
 
 /**
  *

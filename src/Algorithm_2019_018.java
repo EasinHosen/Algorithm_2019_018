@@ -56,8 +56,12 @@ public class Algorithm_2019_018 {
                     case 5:
                         break;
                     case 6:
+                        CountingSort cSort = new CountingSort();
+                        cSort.countSort();
                         break;
                     case 7:
+                        RadixSort rSort = new RadixSort();
+                        rSort.radixSort();
                         break;
                     case 8:
                         break;

@@ -1,7 +1,6 @@
 package ds.search;
 
-import io.Input;
-import io.Output;
+import io.*;
 
 public class LinSearch {
     public void linearSearch() {
