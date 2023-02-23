@@ -40,16 +40,16 @@ public class Algorithm_2019_018 {
 
                 switch (c1) {
                     case 1:
-                        BubbleSort b = new BubbleSort();
-                        b.bubbleSort();
+                        BubbleSort bSort = new BubbleSort();
+                        bSort.bubbleSort();
                         break;
                     case 2:
-                        InsertionSort is = new InsertionSort();
-                        is.insertionSort();
+                        InsertionSort iSort = new InsertionSort();
+                        iSort.insertionSort();
                         break;
                     case 3:
-                        SelectionSort ss = new SelectionSort();
-                        ss.selectionSort();
+                        SelectionSort sSort = new SelectionSort();
+                        sSort.selectionSort();
                         break;
                     case 4:
                         break;
@@ -64,18 +64,20 @@ public class Algorithm_2019_018 {
                         rSort.radixSort();
                         break;
                     case 8:
+                        HeapSort hSort = new HeapSort();
+                        hSort.heapSort();
                         break;
                     case 9:
                         break;
                     case 10:
                         break;
                     case 11:
-                        LinSearch ls = new LinSearch();
-                        ls.linearSearch();
+                        LinSearch lSearch = new LinSearch();
+                        lSearch.linearSearch();
                         break;
                     case 12:
-                        BinSearch bs = new BinSearch();
-                        bs.binarySearch();
+                        BinSearch binSearch = new BinSearch();
+                        binSearch.binarySearch();
                         break;
                     case 13:
                         break;
