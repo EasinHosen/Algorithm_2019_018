@@ -6,6 +6,8 @@
 
 import java.util.Scanner;
 
+import ds.QueueOp;
+import ds.StackOp;
 import ds.search.*;
 import ds.sort.*;
 
@@ -84,8 +86,12 @@ public class Algorithm_2019_018 {
                     case 14:
                         break;
                     case 15:
+                        StackOp stkOp = new StackOp();
+                        stkOp.stack();
                         break;
                     case 16:
+                        QueueOp queOp = new QueueOp();
+                        queOp.queue();
                         break;
                     case 17:
                         break;
