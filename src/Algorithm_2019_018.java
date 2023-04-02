@@ -6,6 +6,8 @@
 
 import java.util.Scanner;
 
+import algorithm.DFS;
+import algorithm.Graph;
 import ds.QueueOp;
 import ds.StackOp;
 import ds.search.*;
@@ -129,6 +131,8 @@ public class Algorithm_2019_018 {
                     case 5:
                         break;
                     case 6:
+                        DFS dfs = new DFS();
+                        dfs.search(0);
                         break;
                     case 7:
                         break;
