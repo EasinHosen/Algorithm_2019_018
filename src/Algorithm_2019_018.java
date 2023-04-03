@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 import algorithm.DFS;
 import algorithm.Graph;
+import algorithm.KnapSack;
 import ds.QueueOp;
 import ds.StackOp;
 import ds.search.*;
@@ -151,6 +152,8 @@ public class Algorithm_2019_018 {
                     case 14:
                         break;
                     case 15:
+                        KnapSack ks = new KnapSack();
+                        ks.runKnapSack();
                         break;
                     case 16:
                         break;
