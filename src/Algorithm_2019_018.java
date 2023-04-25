@@ -6,11 +6,8 @@
 
 import java.util.Scanner;
 
-import algorithm.DFS;
-import algorithm.Graph;
-import algorithm.KnapSack;
-import ds.QueueOp;
-import ds.StackOp;
+import algorithm.*;
+import ds.*;
 import ds.search.*;
 import ds.sort.*;
 
@@ -57,6 +54,8 @@ public class Algorithm_2019_018 {
                         sSort.selectionSort();
                         break;
                     case 4:
+                        MergeSort mSort = new MergeSort();
+                        mSort.mergeSort();
                         break;
                     case 5:
                         break;
