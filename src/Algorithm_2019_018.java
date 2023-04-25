@@ -74,6 +74,8 @@ public class Algorithm_2019_018 {
                         hSort.heapSort();
                         break;
                     case 9:
+                        BinSort binSort = new BinSort();
+                        binSort.binSort();
                         break;
                     case 10:
                         break;
