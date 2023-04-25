@@ -58,6 +58,8 @@ public class Algorithm_2019_018 {
                         mSort.mergeSort();
                         break;
                     case 5:
+                        QuickSort qSort = new QuickSort();
+                        qSort.quickSort();
                         break;
                     case 6:
                         CountingSort cSort = new CountingSort();
