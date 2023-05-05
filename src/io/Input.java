@@ -29,4 +29,9 @@ public class Input {
         return s.nextInt();
 
     }
+    public int valueInput( String msg) {
+        System.out.print(msg);
+        return s.nextInt();
+
+    }
 }

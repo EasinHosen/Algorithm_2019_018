@@ -78,6 +78,8 @@ public class Algorithm_2019_018 {
                         binSort.binSort();
                         break;
                     case 10:
+                        ShellSort shellSort = new ShellSort();
+                        shellSort.run();
                         break;
                     case 11:
                         LinSearch lSearch = new LinSearch();
@@ -102,6 +104,8 @@ public class Algorithm_2019_018 {
                     case 17:
                         break;
                     case 18:
+                    Fibonacci fibonacci = new Fibonacci();
+                    fibonacci.run();
                         break;
                     case 19:
                         break;
