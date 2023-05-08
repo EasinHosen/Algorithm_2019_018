@@ -153,6 +153,8 @@ public class Algorithm_2019_018 {
                     case 11:
                         break;
                     case 12:
+                        Dijkstra dijkstra = new Dijkstra(5);
+                        dijkstra.run();
                         break;
                     case 13:
                         break;
