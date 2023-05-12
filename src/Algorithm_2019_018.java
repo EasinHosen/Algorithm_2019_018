@@ -104,8 +104,8 @@ public class Algorithm_2019_018 {
                     case 17:
                         break;
                     case 18:
-                    Fibonacci fibonacci = new Fibonacci();
-                    fibonacci.run();
+                        Fibonacci fibonacci = new Fibonacci();
+                        fibonacci.run();
                         break;
                     case 19:
                         break;
@@ -137,6 +137,18 @@ public class Algorithm_2019_018 {
                     case 4:
                         break;
                     case 5:
+                        BFSGraph bfsGraph = new BFSGraph(4);
+                        bfsGraph.addEdge(0, 1);
+                        bfsGraph.addEdge(0, 2);
+                        bfsGraph.addEdge(1, 2);
+                        bfsGraph.addEdge(2, 0);
+                        bfsGraph.addEdge(2, 3);
+                        bfsGraph.addEdge(3, 3);
+
+                        System.out.println("Following is Breadth First Traversal " + "(starting from vertex 2)");
+
+                        bfsGraph.run(2);
+
                         break;
                     case 6:
                         DFS dfs = new DFS();
