@@ -161,6 +161,8 @@ public class Algorithm_2019_018 {
                     case 9:
                         break;
                     case 10:
+                        Krushkal krushkal = new Krushkal();
+                        krushkal.run();
                         break;
                     case 11:
                         break;
