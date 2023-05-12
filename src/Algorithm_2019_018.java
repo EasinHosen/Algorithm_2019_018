@@ -165,6 +165,8 @@ public class Algorithm_2019_018 {
                         krushkal.run();
                         break;
                     case 11:
+                        Prims prims = new Prims();
+                        prims.run();
                         break;
                     case 12:
                         Dijkstra dijkstra = new Dijkstra(5);
