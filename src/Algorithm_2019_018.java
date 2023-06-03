@@ -129,8 +129,12 @@ public class Algorithm_2019_018 {
 
                 switch (c1) {
                     case 1:
+                        LCS lcs = new LCS();
+                        lcs.run();
                         break;
                     case 2:
+                    OBST obst = new OBST();
+                    obst.run();
                         break;
                     case 3:
                         break;
