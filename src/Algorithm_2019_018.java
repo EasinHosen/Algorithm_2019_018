@@ -117,7 +117,7 @@ public class Algorithm_2019_018 {
                 System.out.println("=========== (Algorithm) ==========");
                 System.out.println(
                         " 01.Largest common subsequence \n 02.Optimal Binary Search Tree \n 03.Matrix chain multiplication \n "
-                                + "04.Strassens's matrix multiplication \n 05.BFS \n 06.DFS \n "
+                                + "04.Strassen's matrix multiplication \n 05.BFS \n 06.DFS \n "
                                 + "07.DAG \n 08.Longest increasing subsequence \n 09.Topological sort \n "
                                 + "10.Krushkal's algorithm \n 11.Prim's algorithm \n 12.Dijkastra's algorithm \n "
                                 + "13.Bellman ford's algorithm \n 14.Warshall's algorithm \n 15.(0,1) KKnapsack problem \n "
@@ -141,6 +141,8 @@ public class Algorithm_2019_018 {
                         mCm.run();
                         break;
                     case 4:
+                        StrassenMatrixMult sMatrixMult = new StrassenMatrixMult();
+                        sMatrixMult.run();
                         break;
                     case 5:
                         BFSGraph bfsGraph = new BFSGraph(4);
