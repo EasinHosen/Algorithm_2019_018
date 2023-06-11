@@ -137,6 +137,8 @@ public class Algorithm_2019_018 {
                     obst.run();
                         break;
                     case 3:
+                        MatrixCM mCm = new MatrixCM();
+                        mCm.run();
                         break;
                     case 4:
                         break;
