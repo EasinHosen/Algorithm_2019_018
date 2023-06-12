@@ -54,6 +54,8 @@ public class AlgorithmMain {
                 dfs.search(0);
                 break;
             case 7:
+            DAG dag = new DAG();
+            dag.run();
                 break;
             case 8:
                 break;

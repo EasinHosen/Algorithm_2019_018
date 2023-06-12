@@ -39,7 +39,7 @@ public class Algorithm_2019_018 {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Invalid");
+                    System.out.println("Invalid input, try again!!");
                     break;
             }
         }
