@@ -89,6 +89,8 @@ public class DSMain {
                             fibonacci.run();
                             break;
                         case 19:
+                            Recurrencec rec = new Recurrencec();
+                            rec.run();
                             break;
                         default:
                             break;
