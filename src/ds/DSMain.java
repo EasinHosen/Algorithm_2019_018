@@ -69,6 +69,8 @@ public class DSMain {
                             binSearch.binarySearch();
                             break;
                         case 13:
+                            EucGCD eGcd = new EucGCD();
+                            eGcd.run();
                             break;
                         case 14:
                             break;
