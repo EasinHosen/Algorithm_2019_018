@@ -54,12 +54,22 @@ public class AlgorithmMain {
                 dfs.search(0);
                 break;
             case 7:
-            DAG dag = new DAG();
-            dag.run();
+                DAG dag = new DAG();
+                dag.run();
                 break;
             case 8:
+                LIS lis = new LIS();
+                lis.run();
                 break;
             case 9:
+                TopologicalSort topo = new TopologicalSort(6);
+                topo.addEdge(5, 2);
+                topo.addEdge(5, 0);
+                topo.addEdge(4, 0);
+                topo.addEdge(4, 1);
+                topo.addEdge(2, 3);
+                topo.addEdge(3, 1);
+                topo.run();
                 break;
             case 10:
                 Krushkal krushkal = new Krushkal();
