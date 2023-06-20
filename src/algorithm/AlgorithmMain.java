@@ -2,6 +2,8 @@ package algorithm;
 
 import java.util.Scanner;
 
+import ds.Recurrencec;
+
 public class AlgorithmMain {
     public static void algoMain() {
         Scanner s2 = new Scanner(System.in);
@@ -84,8 +86,17 @@ public class AlgorithmMain {
                 dijkstra.run();
                 break;
             case 13:
+                BellmanFord bellmanFord = new BellmanFord();
+                bellmanFord.run();
                 break;
             case 14:
+                int INF = 99999;
+                Warshall warshall = new Warshall();
+                int graph[][] = { { 0, 5, INF, 10 },
+                        { INF, 0, 3, INF },
+                        { INF, INF, 0, 1 },
+                        { INF, INF, INF, 0 } };
+                warshall.run(graph);
                 break;
             case 15:
                 KnapSack ks = new KnapSack();
@@ -98,6 +109,8 @@ public class AlgorithmMain {
             case 18:
                 break;
             case 19:
+                Recurrencec rec = new Recurrencec();
+                rec.run();
                 break;
             case 20:
                 break;
