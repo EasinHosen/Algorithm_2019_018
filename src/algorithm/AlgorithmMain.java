@@ -93,9 +93,9 @@ public class AlgorithmMain {
                 int INF = 99999;
                 Warshall warshall = new Warshall();
                 int graph[][] = { { 0, 5, INF, 10 },
-                        { INF, 0, 3, INF },
-                        { INF, INF, 0, 1 },
-                        { INF, INF, INF, 0 } };
+                { INF, 0, 3, INF },
+                { INF, INF, 0, 1 },
+                { INF, INF, INF, 0 } };
                 warshall.run(graph);
                 break;
             case 15:
@@ -103,20 +103,40 @@ public class AlgorithmMain {
                 ks.runKnapSack();
                 break;
             case 16:
+                StringMatching sMatching = new StringMatching();
+                String pat = "AABAACAADAABAAABAA";
+                String txt = "AABA";
+                sMatching.run(pat, txt);
                 break;
             case 17:
+                String text = "HELLO WORLD HELLO";
+                String patt = "HELLO";
+                int q = 101;
+                RabinKarp rKarp = new RabinKarp();
+                rKarp.run(text, patt, q);
                 break;
             case 18:
+                ActivitySelection activitySelection = new ActivitySelection();
+                activitySelection.run();
                 break;
             case 19:
                 Recurrencec rec = new Recurrencec();
                 rec.run();
                 break;
             case 20:
+                int graph1[][] = { { 0, 16, 13, 0, 0, 0 },
+                        { 0, 0, 10, 12, 0, 0 },
+                        { 0, 4, 0, 0, 14, 0 },
+                        { 0, 0, 9, 0, 0, 20 },
+                        { 0, 0, 0, 7, 0, 4 },
+                        { 0, 0, 0, 0, 0, 0 }
+                };
+                MinCut minCut = new MinCut();
+                minCut.run(graph1, 0, 5);
                 break;
             default:
                 break;
-        }
+            }
 
     }
 
