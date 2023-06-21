@@ -73,6 +73,8 @@ public class DSMain {
                             eGcd.run();
                             break;
                         case 14:
+                        UniversalHashing uHashing = new UniversalHashing();
+                        uHashing.run();
                             break;
                         case 15:
                             StackOp stkOp = new StackOp();
@@ -83,6 +85,8 @@ public class DSMain {
                             queOp.queue();
                             break;
                         case 17:
+                            LinkedList linkedList = new LinkedList();
+                            linkedList.run();
                             break;
                         case 18:
                             Fibonacci fibonacci = new Fibonacci();
